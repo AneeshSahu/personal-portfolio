@@ -98,7 +98,7 @@ header.masthead .site-heading {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 200px 0;
+    padding: 400px 0;
   }
 }
 
@@ -116,7 +116,7 @@ header.masthead .site-heading::-webkit-scrollbar {
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   font-family: 'Hind Madurai', sans-serif;
-  font-size: 100px;
+  font-size: 90px;
   margin-top: 0;
 }
 
@@ -136,6 +136,23 @@ header.masthead .site-heading .subheading {
     padding: 7% 15%;
 }
 
+#about {
+    padding: 7% 15%;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #868e96;
+    position: relative;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 992px) {
+    #about{
+    padding: 15% 15%;
+    }
+}
+
+
+
 #about .container > div.row {
     padding: 5% 0;
 }
@@ -144,7 +161,7 @@ header.masthead .site-heading .subheading {
     border-radius: 50%;
     max-width: 20%;
     height: auto;
-    opacity: 0.8;
+    opacity: 1;
     display: block;
     margin-left: auto;
     margin-right: auto;
