@@ -21,9 +21,6 @@ def project():
     return render_template("projects.html")
 
 
-@app.route('/research')
-def research():
-    return render_template("research.html")
 
 
 @app.route('/resume')
