@@ -14,29 +14,29 @@
 }
 
 #mainNav .navbar-toggler:hover {
-    color: #A4EBF3;
+    color: #FF2626
 }
 
 #secondNav .navbar-toggler:hover {
-    color: #AAAAAA
+    color: #FF2626 
 }
 
 #mainNav .navbar-nav > li.nav-item > a,
 #secondNav .navbar-nav > li.nav-item > a {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #F4F9F9;
+  color: #FF2626
 }
 
 #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: #A4EBF3;
+    color: #FF2626;
 }
 
 #secondNav .navbar-nav > li.nav-item > a:focus, #secondNav .navbar-nav > li.nav-item > a:hover {
-    color: #AAAAAA;
+    color: #FF2626;
 }
 
 /*#navbarResponsive,
@@ -45,7 +45,7 @@
 }*/
 
 #secondNav {
-    background-color: #1687A7;
+    background-color: #000000;
 }
 
 @media only screen and (min-width: 992px) {
@@ -115,22 +115,20 @@ header.masthead .site-heading::-webkit-scrollbar {
 
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
-  font-family: 'Hind Madurai', sans-serif;
-  font-size: 90px;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 0;
 }
 
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 1.1;
   display: block;
   margin: 40px 0 0;
-  font-family: 'Hind Madurai', sans-serif;
-  opacity: 0.8;
+  font-family: 'Montserrat', sans-serif;
 }
-
 /*about*/
 #about {
     padding: 7% 15%;
@@ -169,7 +167,7 @@ header.masthead .site-heading .subheading {
 }
 
 #about .container > div.row > p {
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     opacity: 0.8;
     font-size: 20px;
@@ -187,7 +185,7 @@ header.masthead .site-heading .subheading {
 }
 
 #projects > h2 {
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #projects .container > div.row > div {
@@ -223,7 +221,7 @@ header.masthead .site-heading .subheading {
 
 #footer i:hover {
     opacity: 1;
-    color: #1687A7;
+    color: #FF2626;
 }
 
 #footer .row {
