@@ -25,7 +25,7 @@ def project():
 
 @app.route('/resume')
 def resume():
-    return send_from_directory('static/', 'cs_resume.pdf')
+    return send_from_directory('static/', 'resume.pdf')
 
 
 if __name__ == "__main__":
